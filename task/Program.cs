@@ -19,4 +19,10 @@
             index++;
         } 
     }
+    return newArray;
 }
+
+string[] array = {"name", "world", "-2", "www", "hello", ":-)", "afsdgergheher"};
+string[] newArray = FillArray (array, 3);
+
+Console.Write($"[{string.Join(',', array)}] -> [{string.Join(',', newArray)}] ");
